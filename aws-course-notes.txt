@@ -1,0 +1,15 @@
+1. IAM - 
+    IAM - Security Tools
+    a)IAM Credentias Report
+    b)IAM Access Advisor
+2. Billing set up ,threshold has been set up
+3)EC2
+    a)EC2
+    b)EBS
+    c)ELB
+    d)ASG
+ EC2 sizing - Linux,Windows,Mac OS , CPU,RAM,Storage(EBS,EFS or EC2 instance Store)
+              Network card(speed),Public IP,Firewall(security group)
+              Bootstrap Script(first launch - EC2 User Data)
+    In this course - t2.micro - 750 hours per month
+AMI(Amazone machine Image)
