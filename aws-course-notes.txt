@@ -13,3 +13,17 @@
               Bootstrap Script(first launch - EC2 User Data)
     In this course - t2.micro - 750 hours per month
 AMI(Amazone machine Image)
+    EC2 Instance Types - right now 7 types.
+    EC2 - Security Groups (like Firewall)
+        Security Groups only contain Allow rules.
+    Classic Ports - 22 - SSH(secure shell)
+                    21 - FTP
+                    22 - SFTP(secure file transfer protocol using ssh)
+                    80 - HTTP - access unsecured websites
+                    443 -  HTTPS - access secured websites
+                    3389 - RDP - log into Windows instance
+    AWS - Reserved instances
+
+    EC2 On Demand - billing per seconf after first minute
+                    Other OS -e every hour
+    EBS(Elastic block store)

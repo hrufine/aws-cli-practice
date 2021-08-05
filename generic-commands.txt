@@ -1,0 +1,5 @@
+connection to SSH 
+
+1)chmod 0400 <pem file>
+2)sudo ssh ec2-user@15.207.88.39 -i EC2Tutorial.pem
+3)inside terminal "whoami" - will tell the user
