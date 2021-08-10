@@ -27,3 +27,23 @@ AMI(Amazone machine Image)
     EC2 On Demand - billing per seconf after first minute
                     Other OS -e every hour
     EBS(Elastic block store)
+    Generally EBS cannot multi attached, but for io1/io2 family EBS multi attach exists,
+    eg:for clustered linux applications)
+4)AMI (Amazone Machine Image)
+5)EC2 Instance Store - better I/O (good for temporary store, direct storage in server)
+6)EFS - Elastic file system (network file system)
+    a)NFSv4.1 Network protocol (standard protocol)
+    b)Only for linux and cannot mount on Windows
+    c)POSIX file system, linux has a standard file API
+    d)File system scales automatically, pay per use, no capsity planning
+7)EBS vs EFS
+8)Load Balance
+    a)Classic Loan Balancer - old version
+    b)ALB(Applications Load Balancer) 
+    c)NLB - Network Load Balance
+
+    =>Sticki Session via cookie
+    =>SSL Intro for configuration
+    =>Cross Zone load balancing
+    =>Connection Draining
+9) ASG - Automaic Scaling
